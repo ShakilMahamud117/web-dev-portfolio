@@ -55,7 +55,7 @@ main{
 }
 main section{
     margin-top: 130px;
-    margin-bottom: 130px;
+margin-bottom: 130px;
 }
 /* header bg */
 .header {
@@ -146,3 +146,56 @@ main section{
     height: 90px;
     margin: 0 auto;
 }
+
+
+/* resume Section */
+/* .resume .section-title{
+    text-align: center;
+} */
+.resume-container{
+    display: flex;
+    gap: 71px;
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.ex-title{
+    font-size: 25px;
+    font-weight: 700;
+}
+.ex-duration{
+    font-size: 20px;
+    font-weight: 600;
+}
+.ex-des{
+    font-size: 16px;
+    /* font-weight: bolder; */
+}
+
+.cv-btn{
+    margin-top: 50px;
+}
+
+/* footer */
+footer{
+    display: flex;
+    padding: 100px 230px;
+    gap: 130px;
+}
+.footer-column{
+    width: 50%;
+}
+/* footer input[text], input[email], textarea{
+    display: block;
+} */
+ footer input[type=text], input[type=email], textarea{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    height: 64px;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+ }
